@@ -1,0 +1,16 @@
+{
+  "registro": "BUG 13",
+  "ambiente": "http://testeqa.pge.ce.gov.br",
+  "data_observacao": "2026-10-07",
+  "origem": "Evento window:alert capturado na execução diagnóstica Cypress da HU03",
+  "caminho": "/portal_service/bonds",
+  "acionamento": "#btn-termo no modal Gerar Termos",
+  "atribuicoes_selecionadas": 0,
+  "modal_visivel_antes_da_confirmacao": true,
+  "alertas": [
+    "Selecione um tipo de Termo e uma ou mais Atribuiçôes"
+  ],
+  "excecoes_observadas": [],
+  "texto_esperado_apos_correcao": "Selecione um tipo de Termo e uma ou mais Atribuições",
+  "print": "figura-28.png registra o contexto do modal; a mensagem do alerta está neste JSON."
+}

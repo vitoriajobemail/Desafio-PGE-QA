@@ -1,0 +1,310 @@
+{
+  "registro": "BUG 14",
+  "ambiente": "http://testeqa.pge.ce.gov.br",
+  "diagnosticoOriginal": {
+    "dataObservacao": "2026-10-07",
+    "consultas": [
+      {
+        "ids": [
+          1978
+        ],
+        "tipo": "liability",
+        "mecanismo": "cy.request",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "erroNginx": true
+      },
+      {
+        "ids": [
+          1978
+        ],
+        "tipo": "loan",
+        "mecanismo": "cy.request",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "erroNginx": true
+      },
+      {
+        "ids": [
+          1982
+        ],
+        "tipo": "liability",
+        "mecanismo": "cy.request",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "erroNginx": true
+      },
+      {
+        "ids": [
+          1982
+        ],
+        "tipo": "loan",
+        "mecanismo": "cy.request",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "erroNginx": true
+      },
+      {
+        "ids": [
+          1978,
+          1982
+        ],
+        "tipo": "liability",
+        "mecanismo": "cy.request em lote",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 309302,
+        "assinaturaPdf": true
+      },
+      {
+        "ids": [
+          1978,
+          1982
+        ],
+        "tipo": "loan",
+        "mecanismo": "cy.request em lote",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 309560,
+        "assinaturaPdf": true
+      },
+      {
+        "ids": [
+          1978
+        ],
+        "tipo": "liability",
+        "mecanismo": "cy.request com Accept de navegação",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false
+      }
+    ],
+    "registros": [
+      {
+        "id": 1978,
+        "statusEdicao": 200,
+        "ativosNoFormulario": [
+          "5339"
+        ]
+      },
+      {
+        "id": 1982,
+        "statusEdicao": 200,
+        "ativosNoFormulario": [
+          "5345"
+        ]
+      }
+    ],
+    "idsVisiveis": [
+      "2041",
+      "2040",
+      "2039",
+      "2038",
+      "2037",
+      "2036",
+      "2035",
+      "2034",
+      "2033",
+      "2032"
+    ],
+    "navegacaoExibe502": true
+  },
+  "diagnosticoComplementarCypress": {
+    "registro": "BUG 14",
+    "dataObservacao": "2026-10-07",
+    "consultas": [
+      {
+        "mecanismo": "Navegação real capturada por cy.intercept",
+        "url": "http://testeqa.pge.ce.gov.br/portal_service/bonds/term_responsibility_asset?bonds_ids=1978&term_type=liability",
+        "status": 502,
+        "contentType": "text/html",
+        "corpoContem502": true
+      },
+      {
+        "mecanismo": "Comparação pela API com os mesmos IDs em lote",
+        "ids": [
+          1978,
+          1982
+        ],
+        "tipo": "liability",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 309302,
+        "assinaturaPdf": true
+      }
+    ]
+  },
+  "capturas": [
+    "figura-29.png",
+    "figura-30.png"
+  ],
+  "nota": "Diagnósticos de observação da falha; aprovação do diagnóstico não significa aprovação funcional da geração. O lote foi verificado por status, tipo de conteúdo e assinatura; seu conteúdo completo não foi validado.",
+  "retesteMassaPropria": {
+    "registro": "BUG 14",
+    "dataObservacao": "2026-10-08",
+    "mecanismo": "cy.request em diagnóstico de leitura",
+    "registros": [
+      {
+        "id": "2162",
+        "identificadorMassa": "QA_HU03_1791459610723_1_2",
+        "modalidade": "Presencial",
+        "ativos": [
+          "5592"
+        ]
+      },
+      {
+        "id": "2161",
+        "identificadorMassa": "QA_HU03_1791459610723_1_1",
+        "modalidade": "Presencial",
+        "ativos": [
+          "5591"
+        ]
+      },
+      {
+        "id": "2160",
+        "identificadorMassa": "QA_HU03_1791459610723_1_0",
+        "modalidade": "Presencial",
+        "ativos": [
+          "5590"
+        ]
+      },
+      {
+        "id": "2159",
+        "identificadorMassa": "QA_HU03_1791459610723_0_2",
+        "modalidade": "Home Office",
+        "ativos": [
+          "5589"
+        ]
+      },
+      {
+        "id": "2158",
+        "identificadorMassa": "QA_HU03_1791459610723_0_1",
+        "modalidade": "Home Office",
+        "ativos": [
+          "5588"
+        ]
+      },
+      {
+        "id": "2157",
+        "identificadorMassa": "QA_HU03_1791459610723_0_0",
+        "modalidade": "Home Office",
+        "ativos": [
+          "5587"
+        ]
+      }
+    ],
+    "consultas": [
+      {
+        "modalidade": "Home Office",
+        "ids": [
+          "2157"
+        ],
+        "tipo": "liability",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "corpoContem502": true
+      },
+      {
+        "modalidade": "Home Office",
+        "ids": [
+          "2157",
+          "2158"
+        ],
+        "tipo": "liability",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 310064,
+        "assinaturaPdf": true,
+        "corpoContem502": false
+      },
+      {
+        "modalidade": "Home Office",
+        "ids": [
+          "2157"
+        ],
+        "tipo": "loan",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "corpoContem502": true
+      },
+      {
+        "modalidade": "Home Office",
+        "ids": [
+          "2157",
+          "2158"
+        ],
+        "tipo": "loan",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 310322,
+        "assinaturaPdf": true,
+        "corpoContem502": false
+      },
+      {
+        "modalidade": "Presencial",
+        "ids": [
+          "2160"
+        ],
+        "tipo": "liability",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "corpoContem502": true
+      },
+      {
+        "modalidade": "Presencial",
+        "ids": [
+          "2160",
+          "2161"
+        ],
+        "tipo": "liability",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 310032,
+        "assinaturaPdf": true,
+        "corpoContem502": false
+      },
+      {
+        "modalidade": "Presencial",
+        "ids": [
+          "2160"
+        ],
+        "tipo": "loan",
+        "status": 502,
+        "contentType": "text/html",
+        "tamanho": 568,
+        "assinaturaPdf": false,
+        "corpoContem502": true
+      },
+      {
+        "modalidade": "Presencial",
+        "ids": [
+          "2160",
+          "2161"
+        ],
+        "tipo": "loan",
+        "status": 200,
+        "contentType": "application/pdf",
+        "tamanho": 310290,
+        "assinaturaPdf": true,
+        "corpoContem502": false
+      }
+    ],
+    "duracaoDiagnostico": "49 segundos",
+    "nota": "Quatro respostas individuais HTTP 502 e quatro respostas de lote HTTP 200/PDF; comparação de respostas, sem aprovação funcional das emissões individuais nem do conteúdo completo dos lotes."
+  }
+}

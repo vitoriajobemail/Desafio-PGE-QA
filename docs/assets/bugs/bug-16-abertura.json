@@ -1,0 +1,43 @@
+{
+  "tipo": "Evidência do BUG 16 aprovado",
+  "data": "2026-10-08",
+  "navegador": "Codex In-app Browser",
+  "browserId": "2",
+  "abaOriginal": "1",
+  "alteracoesNoLink": false,
+  "windowOpenStubado": false,
+  "consultas": [
+    {
+      "area": "PRODAT",
+      "inicio": "2050-10-10",
+      "fim": "2050-12-12",
+      "resultadoConsulta": "Sem movimentações para: PRODAT",
+      "acao": "Clique real no link Gerar Relatório",
+      "abasDepoisDoClique": [
+        "1"
+      ],
+      "urlDaAbaOriginalDepoisDoClique": "http://testeqa.pge.ce.gov.br/portal_service/reports/pdf_create?area_name=PRODAT&final_date=2050-12-12&initial_date=2050-10-10"
+    },
+    {
+      "area": "CTI",
+      "inicio": "2026-10-08",
+      "fim": "2026-10-09",
+      "quantidadeNaConsulta": 75,
+      "grupos": [
+        "08 de Outubro de 2026 - 37 movimentações",
+        "07 de Outubro de 2026 - 38 movimentações"
+      ],
+      "acao": "Clique real no botão Gerar Relatório",
+      "abasDepoisDoClique": [
+        "1"
+      ],
+      "urlDaAbaOriginalDepoisDoClique": "http://testeqa.pge.ce.gov.br/portal_service/reports/pdf_create?area_name=CTI&final_date=2026-10-09&initial_date=2026-10-08"
+    }
+  ],
+  "observado": "PDF substitui a consulta na mesma aba nos dois recortes observados",
+  "esperado": "HU04.07 e CT34: PDF abre em nova aba",
+  "impacto": "Consulta deixa de permanecer disponível na aba original",
+  "limitacao": "Observação realizada no navegador acima; não houve conferência em Chrome ou Edge",
+  "reportAutorizado": true,
+  "urlDaConsultaAntesDoClique": "http://testeqa.pge.ce.gov.br/portal_service/reports/moves_today"
+}

@@ -1,0 +1,18 @@
+{
+  "desktopPadrao": {
+    "tipo": "DESKTOP",
+    "marca": "Dell",
+    "modelo": "OptiPlex 3080",
+    "numeroSerie": "SN-DELL-2026-X",
+    "aquisicao": "1",
+    "especificacao": "Processador Core i5, 16GB RAM, SSD 512GB - CTI PGE"
+  },
+  "notebookPadrao": {
+    "tipo": "NOTEBOOK",
+    "marca": "Dell",
+    "modelo": "Latitude 3420",
+    "numeroSerie": "SN-DELL-NOTE-2026",
+    "aquisicao": "1",
+    "especificacao": "Core i7, 16GB RAM, SSD 512GB"
+  }
+}

@@ -1,0 +1,32 @@
+name: Cypress Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Executar Testes Cypress
+        uses: cypress-io/github-action@v6
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+
+      - name: Guardar Evidências de Vídeos e Screenshots em Falhas
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots

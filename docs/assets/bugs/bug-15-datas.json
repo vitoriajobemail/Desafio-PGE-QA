@@ -1,0 +1,147 @@
+{
+  "ambiente": "http://testeqa.pge.ce.gov.br",
+  "data": "2026-10-08",
+  "natureza": "Observação de consultas de leitura; causa técnica não confirmada",
+  "consultas": [
+    {
+      "consulta": {
+        "nome": "08-a-09",
+        "inicio": "2026-10-08",
+        "fim": "2026-10-09"
+      },
+      "enviados": {
+        "area_name": "CTI",
+        "initial_date": "2026-10-08",
+        "final_date": "2026-10-09"
+      },
+      "status": 200,
+      "grupos": [
+        {
+          "cabecalho": "08 de Outubro de 2026 - 30 movimentações",
+          "quantidade": 30,
+          "ocorrenciasDoTomboProprio": 1
+        },
+        {
+          "cabecalho": "07 de Outubro de 2026 - 38 movimentações",
+          "quantidade": 38,
+          "ocorrenciasDoTomboProprio": 0
+        }
+      ],
+      "quantidadeTotal": 68,
+      "ocorrenciasDoTomboProprio": 1,
+      "linkPdf": {
+        "href": "/portal_service/reports/pdf_create?area_name=CTI&final_date=2026-10-09&initial_date=2026-10-08",
+        "target": null
+      }
+    },
+    {
+      "consulta": {
+        "nome": "07-a-07",
+        "inicio": "2026-10-07",
+        "fim": "2026-10-07"
+      },
+      "enviados": {
+        "area_name": "CTI",
+        "initial_date": "2026-10-07",
+        "final_date": "2026-10-07"
+      },
+      "status": 200,
+      "grupos": [
+        {
+          "cabecalho": "07 de Outubro de 2026 - 225 movimentações",
+          "quantidade": 225,
+          "ocorrenciasDoTomboProprio": 0
+        },
+        {
+          "cabecalho": "06 de Outubro de 2026 - 27 movimentações",
+          "quantidade": 27,
+          "ocorrenciasDoTomboProprio": 0
+        }
+      ],
+      "quantidadeTotal": 252,
+      "ocorrenciasDoTomboProprio": 0,
+      "linkPdf": {
+        "href": "/portal_service/reports/pdf_create?area_name=CTI&final_date=2026-10-07&initial_date=2026-10-07",
+        "target": null
+      }
+    },
+    {
+      "consulta": {
+        "nome": "08-a-08",
+        "inicio": "2026-10-08",
+        "fim": "2026-10-08"
+      },
+      "enviados": {
+        "area_name": "CTI",
+        "initial_date": "2026-10-08",
+        "final_date": "2026-10-08"
+      },
+      "status": 200,
+      "grupos": [
+        {
+          "cabecalho": "08 de Outubro de 2026 - 30 movimentações",
+          "quantidade": 30,
+          "ocorrenciasDoTomboProprio": 1
+        },
+        {
+          "cabecalho": "07 de Outubro de 2026 - 38 movimentações",
+          "quantidade": 38,
+          "ocorrenciasDoTomboProprio": 0
+        }
+      ],
+      "quantidadeTotal": 68,
+      "ocorrenciasDoTomboProprio": 1,
+      "linkPdf": {
+        "href": "/portal_service/reports/pdf_create?area_name=CTI&final_date=2026-10-08&initial_date=2026-10-08",
+        "target": null
+      }
+    },
+    {
+      "consulta": {
+        "nome": "09-a-09",
+        "inicio": "2026-10-09",
+        "fim": "2026-10-09"
+      },
+      "enviados": {
+        "area_name": "CTI",
+        "initial_date": "2026-10-09",
+        "final_date": "2026-10-09"
+      },
+      "status": 200,
+      "grupos": [],
+      "quantidadeTotal": 0,
+      "ocorrenciasDoTomboProprio": 0,
+      "linkPdf": {
+        "href": "/portal_service/reports/pdf_create?area_name=CTI&final_date=2026-10-09&initial_date=2026-10-09",
+        "target": null
+      }
+    }
+  ],
+  "massaPropria": {
+    "ativoId": "5621",
+    "atribuicaoId": "2191",
+    "tombo": "TB-HU04-PDF-1791482372208",
+    "criadoPeloTesteUTC": "2026-10-08T17:59:32.208Z",
+    "datasVisiveis": []
+  },
+  "exportacao": {
+    "filtros": {
+      "area_name": "CTI",
+      "initial_date": "2026-10-08",
+      "final_date": "2026-10-09"
+    },
+    "status": 200,
+    "contentType": "application/pdf",
+    "assinatura": "%PDF-",
+    "quantidade": 63,
+    "grupos": [
+      "08 de Outubro de 2026 - 25 movimentações",
+      "07 de Outubro de 2026 - 38 movimentações"
+    ],
+    "todosOsRegistrosESeisCamposCorrespondemATela": true,
+    "paginaDoTitulo": 1,
+    "paginaDoGrupoAnterior": 3,
+    "sha256Pdf": "1d69db73032e84f2095e679ba0ca751d8105cbf003da38072e438d32937b620e"
+  },
+  "nota": "As quantidades pertencem a momentos distintos do ambiente compartilhado; não são expectativas fixas."
+}

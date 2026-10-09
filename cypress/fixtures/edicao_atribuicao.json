@@ -1,0 +1,18 @@
+{
+  "edicaoCamposBasicos": {
+    "observacao": "Observação atualizada via automação Cypress.",
+    "modalidade": "Home Office",
+    "atendidoPor": "10"
+  },
+  "substituicaoAtivoDisponivel": {
+    "observacao": "Substituição de ativo mantido como disponível.",
+    "novoTombo": "14702",
+    "atendidoPor": "10"
+  },
+  "trocaAtivoComDefeito": {
+    "observacao": "Troca realizada devido a equipamento com defeito na porta HDMI.",
+    "descricaoDefeito": "Porta HDMI queimada e tela piscando",
+    "novoTombo": "14702",
+    "atendidoPor": "10"
+  }
+}

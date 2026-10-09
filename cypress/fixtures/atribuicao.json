@@ -1,0 +1,22 @@
+{
+  "obrigatorios": {
+    "area": "CTI",
+    "subarea": "INFORMÀTICA",
+    "atendidoPor": "1"
+  },
+  "completo": {
+    "area": "CTI",
+    "subarea": "INFORMÀTICA",
+    "atendidoPor": "1",
+    "soLabel": "WINDOWS 11 PRO",
+    "officeOptionLabel": "OF-DFDFG",
+    "observacao": "Atribuição realizada com sucesso no ambiente QA.",
+    "tombosLabels": ["14702"]
+  },
+  "alternativo": {
+    "area": "GABINETE",
+    "subarea": "ASSESSOR",
+    "atendidoPor": "1",
+    "observacao": "Atribuição para área do Gabinete."
+  }
+}

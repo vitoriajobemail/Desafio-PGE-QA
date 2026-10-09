@@ -1,0 +1,12 @@
+node_modules/
+cypress.env.json
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+
+AGENTS.md
+.cypress-execucao.lock
+bug_work/
+manual_work/
+test_plan_work/
+document_adjustments_work/
